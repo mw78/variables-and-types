@@ -40,4 +40,9 @@ let storeA = 3.10;
 let storeB = 4.40;
 
 let storeAIsLower = storeA < storeB;
-console.log(storeAIsLower)
+console.log(storeAIsLower);
+
+// Add an if statement
+if (storeAIsLower) {
+    console.log("Store A has a lower price.")
+}
