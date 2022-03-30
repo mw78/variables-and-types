@@ -28,7 +28,8 @@ function x(y) {
     y.num = y.num + 5;
     console.log(y);
 }
-
+// Turn "y" into an object. Objects are passed in by reference! Numbers are passed in by value - the original number does
+// not change.
 let y = {
     name: "Tom", // if you turn y into an object it will change outside the function as well vs. just putting in a value
     num: 10,
