@@ -12,3 +12,7 @@ let string = "String 1 " + "String 2";
 
 console.log(string);
 
+/*
+    *Conditionals, Functions, Scope, and Loops
+*/
+
