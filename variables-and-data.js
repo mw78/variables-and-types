@@ -10,7 +10,7 @@ let mod = 5%2;
 
 let string = "String 1 " + "String 2";
 
-console.log(string);
+//console.log(string);
 
 /*
     *Conditionals, Functions, Scope, and Loops
@@ -18,7 +18,7 @@ console.log(string);
 
 // Equals
 let equals = 1 === 1;
-console.log(equals)
+//console.log(equals)
 
 // Greater than
 let greaterThan = 5 > 1;
@@ -40,7 +40,7 @@ let storeA = 2.40;
 let storeB = 4.40;
 
 let storeAIsLower = storeA < storeB;
-console.log(storeAIsLower);
+//console.log(storeAIsLower);
 
 // Add an if statement
 if (storeAIsLower) {
@@ -53,6 +53,29 @@ if (storeAIsLower) {
 }
 
 // Use functions to encapsulate a code to become reusable in other places
+// Functions have two main features: parameters and the code they execute
+// So to not copy and paste everything, create a function on top:
+
+// Add function and parameters (storeA, storeB):
+function CompareStorePrices (storeA, storeB) {
+    let storeAIsLower = storeA < storeB;
+    // Add an if statement
+    if (storeAIsLower) {
+        console.log("Store A has a lower price.")
+    // Add an else if statement to make a comparison if prices are identical
+    } else if (storeB < storeA) {
+        console.log("Store B has a lower price.")
+    } else {
+        console.log("Their prices are equal.")
+    }
+}
+
+// To run a function call its name and put in new parameters:
+CompareStorePrices(10,5);
+CompareStorePrices(7, 10);
+CompareStorePrices(3, 24);
+CompareStorePrices(100, 23);
+
 
 
 
