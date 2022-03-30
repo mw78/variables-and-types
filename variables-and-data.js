@@ -2,15 +2,15 @@
     *Variables, Data Types, and Typing
  */
 
-let add = 1+2;
-let sub = 2-1;
-let mult = 2*4;
-let division = 4/2;
-let mod = 5%2;
+let add = 1 + 2;
+let sub = 2 - 1;
+let mult = 2 * 4;
+let division = 4 / 2;
+let mod = 5 % 2;
 
 let string = "String 1 " + "String 2";
 
-//console.log(string);
+console.log(string);
 
 /*
     *Conditionals, Functions, Scope, and Loops
@@ -73,8 +73,8 @@ function CompareStorePrices (storeA, storeB) {
 // To run a function call its name and put in new parameters:
 CompareStorePrices(10,5);
 CompareStorePrices(7, 10);
-CompareStorePrices(3, 24);
-CompareStorePrices(100, 23);
+//CompareStorePrices(3, 24);
+//CompareStorePrices(100, 23);
 
 function squareNum (number) {
     return number * number;
@@ -86,3 +86,4 @@ console.log(squaredNumber)
 // Make sure your function only does one thing and keep it simple.
 // Don't exceed 20 lines of code for a function.
 
+// Scope: Certain values or variables are only accessible
