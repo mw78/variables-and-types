@@ -87,3 +87,27 @@ console.log(squaredNumber)
 // Don't exceed 20 lines of code for a function.
 
 // Scope: Certain values or variables are only accessible
+// within certain levels of your code
+
+// Global Scope:
+let x = 10;
+
+function addNumbers (n, m, x) {
+    // Function Scope:
+    console.log(x);
+    let b; // b has to be defined outside the if block first and cascades down
+    // Block Scope (like if scopes have their own scope):
+    if (1===1) {
+        b = 8;
+    }
+    console.log(b);
+    return n + m;
+}
+
+// console.log(n) "n" is not defined outside the function but:
+addNumbers(2, 3, 8);
+
+
+// Arrays: Data Structure
+
+
