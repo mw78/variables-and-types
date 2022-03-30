@@ -76,6 +76,13 @@ CompareStorePrices(7, 10);
 CompareStorePrices(3, 24);
 CompareStorePrices(100, 23);
 
+function squareNum (number) {
+    return number * number;
+}
+// You can easily change the parameter and run this function:
+let squaredNumber = squareNum(7);
+console.log(squaredNumber)
 
-
+// Make sure your function only does one thing and keep it simple.
+// Don't exceed 20 lines of code for a function.
 
