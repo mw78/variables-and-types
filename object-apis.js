@@ -20,4 +20,20 @@ dog.bark();
 
 // Interface vs. Implementation: functionality of the objects
 
+// API's = Application Programming Interface
+
+// Rest API's use url's instead of functions to interact with other people's codes
+
+function x(y) {
+    y.num = y.num + 5;
+    console.log(y);
+}
+
+let y = {
+    name: "Tom", // if you turn y into an object it will change outside the function as well vs. just putting in a value
+    num: 10,
+};
+x(y);
+console.log(y);
+
 
