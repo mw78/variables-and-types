@@ -105,12 +105,21 @@ function addNumbers (n, m, x) {
 }
 
 // console.log(n) "n" is not defined outside the function but:
-addNumbers(2, 3, 8);
+//addNumbers(2, 3, 8);
 
 
 // Arrays: Data Structure (arrays start at 0):
-//              0  1  2  3  4   (index)
-let ourArray = [1, 2, 3, 4, 5];
+//              0  1  2  3          4        5  6 (indexing)
+let ourArray = [1, 2, 3, 4, ['a', 'b', 'c'], 5, 6,]; // You can have an array within an array
 console.log(ourArray[4]);
+
+// Loops are structured much like an if block to repeat certain steps:
+// Example: for(counter; comp; incr) {}
+
+for(let i = 0; i<=5; i++) {
+    console.log("i is equal to: " + i);
+    console.log(ourArray[i]) // [i] is used as an index, the array runs 5 times:
+}
+
 
 
