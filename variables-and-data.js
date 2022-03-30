@@ -108,6 +108,9 @@ function addNumbers (n, m, x) {
 addNumbers(2, 3, 8);
 
 
-// Arrays: Data Structure
+// Arrays: Data Structure (arrays start at 0):
+//              0  1  2  3  4   (index)
+let ourArray = [1, 2, 3, 4, 5];
+console.log(ourArray[4]);
 
 
