@@ -36,7 +36,7 @@ let lessThanEq = 4 <= 9;
 let notEquals = 5 !== 2;
 
 // Example
-let storeA = 3.10;
+let storeA = 2.40;
 let storeB = 4.40;
 
 let storeAIsLower = storeA < storeB;
@@ -45,4 +45,14 @@ console.log(storeAIsLower);
 // Add an if statement
 if (storeAIsLower) {
     console.log("Store A has a lower price.")
+// Add an else if statement to make a comparison if prices are identical
+} else if (storeB < storeA) {
+    console.log("Store B has a lower price.")
+} else {
+    console.log("Their prices are equal.")
 }
+
+// Use functions to encapsulate a code to become reusable in other places
+
+
+
